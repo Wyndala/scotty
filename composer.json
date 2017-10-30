@@ -1,0 +1,16 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Wyndala\\Scotty\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3",
+        "wa72/htmlpagedom": "^1.3"
+    }
+}
